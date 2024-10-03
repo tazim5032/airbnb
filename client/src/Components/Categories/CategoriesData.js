@@ -1,93 +1,112 @@
-import { TbBeach, TbMountain, TbPool } from 'react-icons/tb'
+import { PiCalendarStar } from "react-icons/pi";
 import {
-  GiBarn,
-  GiBoatFishing,
-  GiCactus,
-  GiCastle,
-  GiCaveEntrance,
-  GiForestCamp,
-  GiIsland,
-  GiWindmill,
-} from 'react-icons/gi'
-import { FaSkiing } from 'react-icons/fa'
-import { BsSnow } from 'react-icons/bs'
-import { IoDiamond } from 'react-icons/io5'
-import { MdOutlineVilla } from 'react-icons/md'
+  MdAddHomeWork,
+  MdOutlineBedroomChild,
+  MdSurfing,
+} from "react-icons/md";
+import { FaGolfBall, FaSkiing } from "react-icons/fa";
+import { BsKey } from "react-icons/bs";
+import { FaSpaceAwesome } from "react-icons/fa6";
+import { PiBowlSteamBold } from "react-icons/pi";
+import { FaHouseDamage } from "react-icons/fa";
+import { CiMountain1 } from "react-icons/ci";
+import { SiHomeassistantcommunitystore } from "react-icons/si";
+import { BsSunrise } from "react-icons/bs";
+import { GiIsland } from "react-icons/gi";
+import { FaUmbrellaBeach } from "react-icons/fa6";
+import { BiSolidPiano, BiTrendingUp } from "react-icons/bi";
+import { FaSailboat } from "react-icons/fa6";
+import { BsWater } from "react-icons/bs";
 
 export const categories = [
   {
-    label: 'Beach',
-    icon: TbBeach,
-    description: 'This property is close to the beach!',
+    label: "Icons",
+    icon: PiCalendarStar,
+    description: "This property is close to the beach!",
   },
   {
-    label: 'Windmills',
-    icon: GiWindmill,
-    description: 'This property is has windmills!',
+    label: "Rooms",
+    icon: MdOutlineBedroomChild,
+    description: "This property is has windmills!",
   },
   {
-    label: 'Modern',
-    icon: MdOutlineVilla,
-    description: 'This property is modern!',
+    label: "OMG!",
+    icon: FaSpaceAwesome,
+    description: "This property is modern!",
   },
   {
-    label: 'Countryside',
-    icon: TbMountain,
-    description: 'This property is in the countryside!',
+    label: "Breakfast",
+    icon: PiBowlSteamBold,
+    description: "This property is in the countryside!",
   },
   {
-    label: 'Pools',
-    icon: TbPool,
-    description: 'This is property has a beautiful pool!',
+    label: "Cabins",
+    icon: FaHouseDamage,
+    description: "This is property has a beautiful pool!",
   },
   {
-    label: 'Islands',
+    label: "Top",
+    icon: CiMountain1,
+    description: "This property is on an island!",
+  },
+  {
+    label: "Countryside",
+    icon: SiHomeassistantcommunitystore,
+    description: "This property is near a lake!",
+  },
+  {
+    label: "Best View",
+    icon: BsSunrise,
+    description: "This property has skiing activities!",
+  },
+  {
+    label: "Island",
     icon: GiIsland,
-    description: 'This property is on an island!',
+    description: "This property is an ancient castle!",
   },
   {
-    label: 'Lake',
-    icon: GiBoatFishing,
-    description: 'This property is near a lake!',
+    label: "BeachFront",
+    icon: FaUmbrellaBeach,
+    description: "This property is in a spooky cave!",
   },
   {
-    label: 'Skiing',
-    icon: FaSkiing,
-    description: 'This property has skiing activities!',
+    label: "Piano",
+    icon: BiSolidPiano,
+    description: "This property offers camping activities!",
   },
   {
-    label: 'Castles',
-    icon: GiCastle,
-    description: 'This property is an ancient castle!',
+    label: "Boats",
+    icon: FaSailboat,
+    description: "This property is in arctic environment!",
   },
   {
-    label: 'Caves',
-    icon: GiCaveEntrance,
-    description: 'This property is in a spooky cave!',
+    label: "LakeFront",
+    icon: BsWater,
+    description: "This property is in the desert!",
   },
   {
-    label: 'Camping',
-    icon: GiForestCamp,
-    description: 'This property offers camping activities!',
+    label: "New",
+    icon: BsKey,
+    description: "This property is in a barn!",
   },
   {
-    label: 'Arctic',
-    icon: BsSnow,
-    description: 'This property is in arctic environment!',
+    label: "TinyHome",
+    icon: MdAddHomeWork,
+    description: "This property is brand new and luxurious!",
   },
   {
-    label: 'Desert',
-    icon: GiCactus,
-    description: 'This property is in the desert!',
+    label: "Golfing",
+    icon: FaGolfBall,
+    description: "This property is brand new and luxurious!",
   },
   {
-    label: 'Barns',
-    icon: GiBarn,
-    description: 'This property is in a barn!',
+    label: "Surfing",
+    icon: MdSurfing,
+    description: "This property is brand new and luxurious!",
   },
   {
-    label: 'Lux',
-    icon: IoDiamond,
-    description: 'This property is brand new and luxurious!',
+    label: "Trending",
+    icon: BiTrendingUp,
+    description: "This property is brand new and luxurious!",
   },
-]
+];

@@ -4,6 +4,7 @@ import useAxiosCommon from '../../Hooks/useAxiosCommon'
 import LoadingSpinner from '../Shared/LoadingSpinner'
 import Container from '../Shared/Container'
 import Heading from '../Shared/Heading'
+import Card from './Card'
 
 const Rooms = () => {
   const axiosCommon = useAxiosCommon()

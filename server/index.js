@@ -48,7 +48,19 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     //await client.connect();
-  
+
+    const roomsCollection = client.db("airbnb").collection("rooms");
+
+    // Get all rooms from db
+    app.get("/rooms", async (req, res) => {
+      const category = req.query.category;
+      console.log(category);
+      let query = {};
+      if (category && category !== "null") query = { category };
+      const result = await roomsCollection.find(query).toArray();
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(

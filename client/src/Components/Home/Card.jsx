@@ -22,7 +22,7 @@ const Card = ({ room }) => {
                 group-hover:scale-110 
                 transition
               '
-            src={room?.image}
+            src={room?.img1}
             alt='Room'
           />
           <div
@@ -33,6 +33,7 @@ const Card = ({ room }) => {
             '
           ></div>
         </div>
+        
         <div className='font-semibold text-lg'>{room?.location}</div>
         <div className='font-light text-neutral-500'>5 nights .</div>
         <div className='flex flex-row items-center gap-1'>
